@@ -1,0 +1,9 @@
+{
+	"$schema": "https://json.schemastore.org/web-manifest-combined.json",
+	"name": "qwik-boilerplate",
+	"short_name": "Welcome to Qwik",
+	"start_url": ".",
+	"display": "standalone",
+	"background_color": "#fff",
+	"description": "Minimalistic fullstack boilerplate for developing Qwik + QwikCity applications in TypeScript, optimized for blazing-fast performance using Bun & Vite 🚀"
+}

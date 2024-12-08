@@ -1,0 +1,24 @@
+{
+	"onRequest": {
+		"scope": "javascriptreact,typescriptreact",
+		"prefix": "qwikcity-onRequest",
+		"description": "onRequest function for a route index",
+		"body": [
+			"export const onRequest: RequestHandler = (request) => {",
+			"  $0",
+			"};"
+		]
+	},
+	"loader$": {
+		"scope": "javascriptreact,typescriptreact",
+		"prefix": "qwikcity-loader$",
+		"description": "loader$()",
+		"body": ["export const $1 = routeLoader$(() => {", "  $0", "});"]
+	},
+	"action$": {
+		"scope": "javascriptreact,typescriptreact",
+		"prefix": "qwikcity-action$",
+		"description": "action$()",
+		"body": ["export const $1 = routeAction$((data) => {", "  $0", "});"]
+	}
+}
